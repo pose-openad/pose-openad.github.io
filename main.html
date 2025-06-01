@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Multimodal LLMs Advance Time Series Analysis">
-  <meta name="keywords" content="Multimodal LLMs, Time Series Analysis">
+        content="OpenAD">
+  <meta name="keywords" content="OpenAD">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>OpenAD</title>
 
@@ -43,19 +43,54 @@
 
 
 <body>
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://keunhong.com">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          Research Output
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="ad-agent.html">
+            AD-Agent
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
 <section class="hero">
   <div class="hero-body">
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-2 publication-title" id="tsad">OpenAD: An Integrated Open-Source Ecosystem for Anomaly Detection</h1>
-            <h1 class="title is-4 publication-title">PIs: <a href="https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=en" target="_blank">Philip S. Yu, 
+          <h1 class="title is-4 publication-title" id="tsad">OpenAD: An Integrated Open-Source Ecosystem for Anomaly Detection</h1>
+            <h1 class="title is-5 publication-title">PIs: 
+                <a href="https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=en" target="_blank">Philip S. Yu, 
                 <a href="https://viterbi-web.usc.edu/~yzhao010/" target="_blank">Yue Zhao,  
                 <a href="https://www.cs.emory.edu/~kshu5/" target="_blank">Kai Shu,
-                <a href="https://lichao-sun.github.io/" target="_blank">Lichao Sun</a>
+                <a href="https://lichao-sun.github.io/" target="_blank">Lichao Sun
+                </a>
             </h1>
 
-          <div class="is-size-4 publication-authors">
+          <div class="is-size-5 publication-authors">
             <span class="author-block">University of Illinois Chicago,</span>
             <span class="author-block">University of Southern California,</span>
             <span class="author-block">Emory University,</span>
@@ -81,12 +116,13 @@
 </section>
 
 
-<section class="section">
+
+<section class="section less-margin">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-left">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Description</h2>
-        <div class="content is-size-5 has-text-justified">
+        <h2 class="title is-4">Description</h2>
+        <div class="content is-size-6 has-text-justified">
           <p>In the digital age, the ability to identify anomalies quickly and accurately within massive datasets is critical for ensuring the safety, security, and efficiency of numerous sectors, including healthcare, national security, and finance. Anomalies, which represent deviations from the norm, can indicate critical issues such as potential security breaches, health crises, or financial fraud. The open tools and systems for anomaly detection (AD) are often fragmented, complex, and not easily accessible. This project aims to revolutionize this landscape by developing an integrated, open-source ecosystem that simplifies AD. By making advanced detection tools widely available and user-friendly, the OpenAD ecosystem will empower researchers, businesses, and public institutions to leverage the full potential of AD.</p>
 
           <p>This project seeks to unify existing AD systems into a comprehensive ecosystem that supports diverse data types and application domains. This ecosystem will integrate a wide range of open-source AD tools, including those for tabular, graph, and time-series data, and provide a platform for seamless integration of model evaluation, automation, and acceleration. The project's goals include developing a standardized development environment, enhancing tools for automating and accelerating detection processes, and establishing a governance structure to guide community contributions and project evolution. By leveraging the collective expertise of a diverse community of developers, researchers, and users, OpenAD aims to overcome current limitations in AD. The resulting ecosystem will not only facilitate more effective and efficient detection of anomalies across various domains but also foster innovation and collaboration within the scientific community. Through OpenAD, AD tools will be more accessible, powerful, and capable of addressing the complex challenges of the increasingly data-driven world.</p>
@@ -99,27 +135,27 @@
 </section>
 
 
-<section class="section">
+
+<section class="section less-margin">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-left">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Governing Committee</h2>
-        <div class="content is-size-5 has-text-justified">
+        <h2 class="title is-4">Governing Committee</h2>
+        <div class="content is-size-6 has-text-justified">
           <p><strong>Chairperson.</strong> The Chairperson will lead the development of short-term and long-term strategies to ensure OPENAD’s success as well as act as the final authority on resolving disputes within the committee or the larger development community. Due to their leadership and expertise in AD systems, PI Yu and Co-PI Zhao may co-chair the committee jointly in its initial setup.</p>
 
           <p><strong>Technical Lead.</strong> The Technical Lead will develop and maintain a comprehensive technical roadmap for OPENAD, oversee the review process for code submissions to ensure they meet predefined quality standards, and mentor new and existing contributors on OPENAD’s technical requirements. Co-PI Shu and Sun, along with PyGOD’s original core developer, Dr. Yingtong Dou from Visa Research, will lead the development.</p>
 
           <p><strong>Community Manager.</strong> The Community Manager will (1) drive community involvement by organizing events, hackathons, and online forums, (2) create resources and processes to onboard new contributors effectively, and (3) aggregate community feedback on issues, features, and improvements and present them to the committee. Dr. Kaize Ding, who has extensive open-source AD experience, can help coordinate community events with Kay Liu from PI Yu’s team and Co-PI Shu’s Ph.D. student Canyu Chen.</p>
 
-          <p><strong>Academic Advisor.</strong> The Academic Advisor will provide insights into emerging academic trends that can influence OPENAD’s development, ensure the ethical implications of OD algorithms and features are considered, and facilitate potential collaborations with researchers. Prof. Christos Faloutsos and Leman Akoglu from Carnegie Mellon University, Prof. Jure Leskovec from Stanford, Prof. Jiawei Han from UIUC, Prof. Jian Pei from Duke University, Prof. Bryan Hooi from the National University of Singapore, and Prof. Xiang Li from Massachusetts General Hospital and Harvard Medical School will provide valuable insights.</p>
+          <p><strong>Academic Advisor.</strong> The Academic Advisor will provide insights into emerging academic trends that can influence OPENAD’s development, ensure the ethical implications of OD algorithms and features are considered, and facilitate potential collaborations with researchers. Academic advisors include Dr. Bryan Hooi (National University of Singapore), who advised on graph-based modeling and evaluation, and Dr. Zhihao Jia (Carnegie Mellon University), who provided input on scalable system infrastructure.</p>
 
-          <p><strong>Industry Advisor.</strong> The Industry Advisor will (1) keep the committee updated on market demands and opportunities, (2) help identify industry partners and funding opportunities, and (3) offer feedback on how to make OPENAD more user-friendly and applicable to real-world applications. Advisors may include Dr. Caiming Xiong (Salesforce), Dr. Ahmed Awadallah (Microsoft Research), Dr. Alicia Guo (EY Canada), and Dr. Cao Xiao (GE Healthcare).</p>
+          <p><strong>Industry Advisor.</strong> The Industry Advisor will (1) keep the committee updated on market demands and opportunities, (2) help identify industry partners and funding opportunities, and (3) offer feedback on how to make OPENAD more user-friendly and applicable to real-world applications. Industry advisors include Dr. Caiming Xiong (Salesforce) and Dr. Chris Kuo (The Hartford/Columbia University), who advised on applied anomaly detection needs, deployment practices, and industry relevance.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
-
 
 
 <!-- license -->
